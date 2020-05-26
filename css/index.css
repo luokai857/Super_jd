@@ -1,0 +1,281 @@
+.jd{
+    height:480px;
+    position: relative;
+}
+.jd-inner{
+    margin-top:10px;
+    height:470px;
+
+    z-index: 1;
+    position: relative;
+}
+.ad{
+    height: 480px;
+    background:url("../images/huawei.webp") no-repeat;
+    position: absolute;
+    top:0;
+    left:40px;
+    width:90%;
+}
+.ad a{
+    display: block;
+    height: 100%;
+}
+.jd-clo1{
+    width:190px;
+    height:455px;
+    background-color: #FEFEFE;
+    float: left;
+    padding-top:15px;
+}
+.jd-clo1 li{
+    padding-left: 20px;
+    height:25px;
+    line-height: 25px;
+}
+.jd-clo1 li:hover{
+    background-color: #D9D9D9;
+}
+.jd-clo1 li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #333333;
+}
+.jd-clo1 li a:hover{
+    color: #E1251B;
+}
+.jd-clo2{
+    width:790px;
+    height: 470px;
+
+    float: left;
+    margin-left: 10px;
+}
+.jd-clo3{
+    width:190px;
+    height:470px;
+   
+    float: right;
+}
+.jd-clo2-l{
+    width: 590px;
+    height: 100%;
+    float: left;
+}
+.jd-clo2-r{
+    float: right;
+}
+.jd-clo2-r-1{
+    width:190px;
+    height:150px;
+}
+.jd-clo2-r-1 img{
+    height:100%;
+    width:100%;
+}
+.jd-clo2-r-2{
+    width:190px;
+    height:150px;
+    margin: 10px 0;
+}
+.jd-clo2-r-2 img{
+    height:100%;
+    width:100%;
+}
+
+.jd-clo2-r-3{
+    width:190px;
+    height:150px;
+}
+.jd-clo2-r-3 img{
+    height:100%;
+    width:100%;
+}
+.jd-clo2-r img:hover{
+    opacity:0.7;
+    filter:alpha(opacity=40);
+}
+.user{
+    height:95px;
+    background-color: #FFFFFF;
+    padding: 20px 15px 0;
+    position: relative;
+    border-bottom:1px solid #FFFFFF;
+
+
+}
+.user-info{
+    height:40px;
+    color: #A3A3A3;
+    font-size: 13px;
+    padding-left: 54px;
+    line-height: 22px;
+    
+
+}
+.info-img{
+    height:40px;
+    width:40px;
+    position: absolute;
+    top:20px;
+    left:20px;
+
+}
+.info-img img{
+    height:auto;
+    width:  100%;
+    border-radius: 50%;
+}
+.user-info a,.user-info span {
+    color: #A3A3A3;
+    font-size: 13px;
+    text-decoration: none;
+    color: #333333;
+}
+.user-info .hui{
+     color: #A3A3A3;
+ }
+.user-profit a{
+    text-decoration: none;
+    margin-top: 15px;
+}
+.fuli{
+    background-color: #E1251B;
+    display: block;
+    height:15px;
+    width:48px;
+    float: left;
+    color: #FFFFFF;
+    border-radius: 30px;
+    padding: 5px 10px;
+
+}
+.user-info a:hover{
+    color: #E1251B;
+}
+.user-profit .fuli{
+    font-size: 12px;
+    line-height: 15px;
+}
+.user-profit .fuli:hover{
+    background: #C81623;
+}
+.user-profit .huiyuan:hover{
+    background: #C81623;
+}
+.huiyuan{
+    background-color: #363634;
+    display: block;
+    height:15px;
+    width:54px;
+    float: right;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: #E5D790;
+}
+.user-profit .huiyuan{
+    font-size: 12px;
+    line-height: 15px;
+
+}
+.news{
+    height:149px;
+    padding: 5px 15px 0;
+    background-color: #FFFFFF;
+
+}
+.tab-hd{
+    height: 30px;
+}
+.tab-hd p{
+    color: #333333;
+    font-weight: 700;
+    font-size: 14px;
+    float: left;
+}
+.tab-hd a{
+    float: right;
+    color: #999999;
+    font-size: 13px;
+    text-decoration: none;
+}
+.tab-hd a:hover{
+    color: #E1251B;
+}
+.tab-bd a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 12px;
+    float: right;
+    margin-top: 4px;
+}
+.tab-bd .news_tag{
+    color: #E1251B;
+    display: block;
+    height: 20px;
+    width: 30px;
+    background-color:#FDEEED;
+    float: left;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+.tab-bd a:hover{
+    color: #E1251B;
+}
+
+.jd-service{
+    height:200px;
+    overflow: hidden;
+
+}
+.jd-service li{
+    width:47px;
+    height:69px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    float: left;
+
+}
+.jd-service li a{
+    display: block;
+    padding-top: 15px;
+    text-align: center;
+    list-style: none;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+
+}
+.jd-service li a:hover{
+    color: red;
+}
+.jd-service ul{
+    width: 195px;
+}
+.jd-service li i{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    background-color: pink;
+    width: 18px;
+    height:23px;
+}
+
+.jd-service li:first-child i{
+    width: 18px;
+    height:23px;
+    background-color: pink;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+
+}
+.jd-service img{
+    height:100%;
+    width:100%;
+}
+.swiper-container {
+    width: 600px;
+    height: 100%;
+}

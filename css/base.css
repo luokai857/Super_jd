@@ -1,0 +1,464 @@
+/* 版心*/
+body{
+    background-color: #F4F4F4;
+}
+input,button{
+    padding: 0;
+    border:0;
+}
+.w{
+    width: 1190px;
+    margin: auto;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+/*京东顶部 start*/
+.J_event{
+
+        background-color:#E7012B ;
+    }
+.J_event a {
+    display: block;
+    height: 80px;
+    background: url("../images/top.jpg.webp") no-repeat;
+}
+.clearfix:before,.clearfix:after{
+    content: "";
+    display: table;
+}
+.clearfix:after{
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+/*京东顶部 end*/
+.shortcut{
+    height: 30px;
+    background-color: #E3E4E5;
+    border-bottom: 1px solid #DDDDDD;
+    color:#9D9D9D;
+    font-size:12px;
+    line-height: 30px;
+}
+.shortcut a{
+    color:#9D9D9D;
+    font-size:12px;
+    text-decoration: none;
+}
+.pos {
+    font-style: normal;
+    color: #F10215;
+    font-size: 14px;
+}
+.shortcut .fr li{
+    float: left;
+    margin-right: 10px;
+}
+.shortcut .fr{
+    margin-right: 30px;
+}
+.spacer{
+    background-color: #CCCCCC;
+    height: 10px;
+    width: 1px;
+    margin: 10px 10px 0;
+}
+.shortcut .fr li a:hover{
+    color: red;
+}
+.fr .hongse{
+    color: red;
+}
+
+/*headerB部分开始*/
+.header{
+    height: 140px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+}
+.inner{
+    height: 140px;
+    position: relative;
+}
+/*headerB部分结束*/
+.logo{
+    width: 190px;
+    height: 120px;
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+.logo a{
+    display: block;
+    width: 190px ;
+    height: 120px;
+    margin-top: 10px;
+
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.search{
+    width: 550px;
+    height: 35px;
+    background-color: pink;
+    position: relative;
+    top:25px;
+    left: 260px;
+}
+.search input{
+    width: 493px;
+    height: 33px;
+    border:1px solid #E2231A;
+   padding: 0 0 0 5px;
+    outline: none;
+    color: #B0B0B0;
+    float: left;
+}
+.search button{
+    width: 50px;
+    height: 35px;
+    background-color: #E1251B;
+    float: left;
+    cursor: pointer;
+    outline: none;
+}
+.search button:hover{
+    background-color:#C81623 ;
+}
+.search i{
+    font-style: normal;
+    font-size: 25px;
+    color: #ffffff;
+}
+.hotwords{
+    position: absolute;
+    top:60px;
+    left: 260px;
+
+}
+.hotwords .red{
+    color:#E1251B;
+}
+.hotwords a{
+    font-size: 12px;
+    color:#B5B5B5;
+    text-decoration: none;
+}
+.hotwords a:hover{
+    color:#E1251B;
+}
+.myCar{
+    width: 140px;
+    height: 33px;
+    border:1px solid #CCCCCC;
+    position: absolute;
+    top:25px;
+    right: 210px;
+    text-align: center;
+    line-height: 33px;
+}
+.myCar a {
+    font-size: 14px;
+    color: #E1251B;
+    text-decoration: none;
+}
+.myCar i{
+    font-style: normal;
+    color:#E1251B ;
+}
+.myCar:hover{
+    border:1px solid #E1251B;
+}
+.myCar s{
+    position: absolute;
+    top:5px;
+   left: 115px;
+    text-decoration: none;
+    background-color:#E1251B;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    padding: 0 3px;
+    border-radius: 6px;
+    color: #F4F4F4;
+}
+.guanggao{
+    position: absolute;
+    bottom:10px;
+   right: 0;
+}
+.navitems{
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+}
+.navitems li{
+    float: left;
+    margin-left: 20px;
+}
+.navitems a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 15px;
+}
+.navitems .n1{
+    color: #E6473F;
+}
+.navitems a:hover{
+    color: #E1251B;
+}
+/*底部开始*/
+.footer{
+    height: 568px;
+
+}
+.footer-service{
+    height: 100px;
+    border-bottom:1px solid #DEDEDE;
+}
+.footer-service-inner{
+
+    padding: 30px 0;
+}
+.footer-service-inner li{
+    width: 297px;
+    height: 42px;
+    float: left;
+
+}
+.usevice_unit{
+    width: 225px;
+    height: 42px;
+    margin: 0 auto;
+    position: relative;
+}
+.usevice_unit h5{
+    width: 36px;
+    height: 43px;
+    background-color: black;
+    position: absolute;
+    top:0;
+    left: 0;
+    background: url("../images/jinlingtu.png") no-repeat;
+    background-position: 0px -190px;
+    text-indent: -999px;
+    overflow: hidden;
+}
+.usevice_unit p{
+    line-height: 42px;
+    margin-left: 45px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.usevice_unit .kuai{
+    background: url("../images/jinlingtu.png") no-repeat;
+    background-position: -41px -190px;
+}
+.usevice_unit .hao{
+    background: url("../images/jinlingtu.png") no-repeat;
+    background-position: -82px -190px;
+}
+.usevice_unit .sheng{
+    background: url("../images/jinlingtu.png") no-repeat;
+    background-position: -123px -190px;
+}
+.help{
+    height: 200px;
+    padding-top:20px ;
+}
+
+.help dt{
+    font-size: 14px;
+    font-weight: 700;
+    color: #666666;
+    height: 30px;
+}
+.help dd{
+    height: 22px;
+}
+.help dd a{
+    color: #666666;
+    text-decoration: none;
+    font-size: 12px;
+}
+.help dd a:hover{
+    color: #E1251B;
+}
+.help dl{
+    float: left;
+    width: 195px;
+}
+.help  .cover{
+    height: 150px;
+    width: 207px;
+    float: right;
+    background:url("../images/jinlingtu.png") no-repeat;
+}
+.cover dt{
+    text-align: center;
+}
+.cover .info{
+    width: 175px;
+    height: 50px;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+    line-height: 18px;
+
+}
+.cover  .more{
+    text-align: right;
+    padding-right: 20px;
+}
+.copyright{
+    border-top:1px solid #E1E1E1;
+    padding-top: 15px;
+
+}
+.copyright .links a{
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+}
+.links{
+    text-align: center;
+}
+.copyright .links a:hover{
+    color: #E1251B;
+}
+.copyright .links span{
+    color: #CFD8E6;
+    font-size: 12px;
+    margin: 0 7px;
+}
+.c-info p{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    height: 23px;
+    line-height: 20px;
+}
+.c-info{
+    margin-top: 12px;
+}
+.mod_copyright_split{
+    margin: 0 10px;
+}
+.c-info a{
+    color: #999999;
+    text-decoration: none;
+}
+.c-info a:hover{
+    color: #E1251B;
+}
+.mod_copyright_auth .mod_copyright_auth1{
+    background: url("../images/jinlingtu.png") no-repeat;
+    background-position: -200px -110px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    margin-left: 350px;
+
+}
+.mod_copyright_auth .mod_copyright_auth2{
+     background: url("../images/jinlingtu.png") no-repeat;
+     background-position: -200px -150px;
+     height: 30px;
+     width: 100px;
+     display: block;
+ }
+.mod_copyright_auth .mod_copyright_auth3{
+    background: url("../images/jinlingtu.png") no-repeat;
+    background-position: -200px -40px;
+    height: 30px;
+    width: 100px;
+    display: block;
+}
+.mod_copyright_auth .mod_copyright_auth4{
+    background: url("../images/jinlingtu.png") no-repeat;
+    background-position: -200px -76px;
+    height: 30px;
+    width: 100px;
+    display: block;
+}
+.mod_copyright_auth .mod_copyright_auth5{
+    background: url("../images/jinlingtu.png") no-repeat;
+    background-position: -200px -0px;
+    height: 30px;
+    width: 100px;
+    display: block;
+
+}
+.mod_copyright_auth a{
+    float: left;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
